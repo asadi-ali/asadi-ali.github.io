@@ -3,6 +3,7 @@
   --background: #ffffff;
   --text: #4b4b4b;
   --heading: #252525;
+  --muted: #606060;
   --link: #1769aa;
   --rule: #d8d8d8;
 }
@@ -177,7 +178,7 @@ address {
 
 .entry-date {
   flex: 0 0 auto;
-  color: #606060;
+  color: var(--muted);
   font-size: 0.95rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
